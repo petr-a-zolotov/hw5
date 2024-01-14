@@ -62,7 +62,7 @@ public class Main {
                 System.out.println("Принадлежит времени году осень");
                 break;
             default:
-                System.out.println("Такой месяц не существует/");
+                System.out.println("Такой месяц не существует");
         }
 
 
