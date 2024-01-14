@@ -49,19 +49,20 @@ public class Main {
         System.out.println("Задание 4");
         int montfNomber = 12;
         switch (montfNomber ){
-            case 1.2.12:
+            case 1,2,12:
                 System.out.println("Принадлежит времени году зима");
             break;
-            case 3.4.5:
+            case 3,4,5:
                 System.out.println("Принадлежит времени году весна");
                 break;
-            case 6.7.8:
+            case 6,7,8:
                 System.out.println("Принадлежит времени году лето");
                 break;
-            case 9.10.11:
+            case 9,10,11:
                 System.out.println("Принадлежит времени году осень");
                 break;
-
+            default:
+                System.out.println("Такой месяц не существует");
         }
 
 
